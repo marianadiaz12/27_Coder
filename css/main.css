@@ -1,1 +1,40 @@
 /* Tu CSS va aqui */
+
+/*fondo del header*/
+.na{
+	position: fixed;
+	z-index: 100;
+}
+.backhe{
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*texto en blanco*/
+.white{
+	color: white;
+}
+.bacna{
+	background-color: #DA310F;
+}
+hr{
+	width: 10%;
+}
+.sob{
+	padding: 5% 10%;
+}
+.hr2{
+	border: 1px solid #DA310F;
+}
+.sec4{
+	background-color: black;
+}
+.bk1{
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+}
+/*.bk1{
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+}*/
+
