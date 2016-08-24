@@ -70,7 +70,7 @@ hr{
 }
 .imge:hover .proyec{
 	opacity: 0.7;
-	padding: 10%;
+	font-size: 1em;
 }
 .mar{
 	margin:5%;
@@ -86,4 +86,19 @@ hr{
 
 .correo{
 	color: #DA310F;
+}
+.move{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.move:hover{
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
