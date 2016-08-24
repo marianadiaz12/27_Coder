@@ -1,15 +1,21 @@
-/* Tu CSS va aqui */
-
-/*fondo del header*/
+*{
+	font-family: 'Courgette', cursive;
+}
 nav{
 	opacity: 0.7;
+}
+.serv{
+	color: black;
+}
+.bot-whi{
+	background-color: white;
 }
 .backhe{
 	background-image: url("../img/header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 10% 20%;
 }
-/*texto en blanco*/
 .white{
 	color: white;
 }
@@ -19,8 +25,14 @@ nav{
 hr{
 	width: 10%;
 }
+.bot{
+
+}
 .sob{
 	padding: 5% 10%;
+}
+.padso{
+	padding: 0 20%;
 }
 .hr2{
 	border: 1px solid #DA310F;
@@ -28,6 +40,50 @@ hr{
 .sec4{
 	background-color: black;
 }
-a{
-	text-decoration: none;
+.imge{
+	background-repeat: no-repeat;
+}
+.fo1{
+	background-image: url("../img/1.jpg");
+}
+.fo2{
+	background-image: url("../img/2.jpg");
+}
+.fo3{
+	background-image: url("../img/3.jpg");
+}
+.fo4{
+	background-image: url("../img/4.jpg");
+}
+.fo5{
+	background-image: url("../img/5.jpg");
+}
+.fo6{
+	background-image: url("../img/6.jpg");
+}
+.proyec{
+	opacity: 0;
+	height: 15em;
+	background-color: #DA310F;
+	-webkit-transition: opacity 0.2s;
+	padding: 5%;
+}
+.imge:hover .proyec{
+	opacity: 0.7;
+	padding: 10%;
+}
+.mar{
+	margin:5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .titu{
+    	color: #DA310F;
+    	font-weight: bold;
+    	font-size: 2em;
+    }
+}
+
+.correo{
+	color: #DA310F;
 }
