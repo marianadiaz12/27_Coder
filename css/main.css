@@ -1,9 +1,8 @@
 /* Tu CSS va aqui */
 
 /*fondo del header*/
-.na{
-	position: fixed;
-	z-index: 100;
+nav{
+	opacity: 0.7;
 }
 .backhe{
 	background-image: url("../img/header.jpg");
@@ -29,12 +28,6 @@ hr{
 .sec4{
 	background-color: black;
 }
-.bk1{
-	background-image: url("../img/1.jpg");
-	background-size: cover;
+a{
+	text-decoration: none;
 }
-/*.bk1{
-	background-image: url("../img/2.jpg");
-	background-size: cover;
-}*/
-
